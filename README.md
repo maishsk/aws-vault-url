@@ -1,7 +1,7 @@
 # aws-vault-url
-Tool to get any a URL for any AWS service console
+Tool to get the correct URL for any AWS service console
 
-You can use this tool to generate a login URL for any AWS service.
+The tool uses [aws-vault](https://github.com/99designs/aws-vault)
 
 ## Parameters
 The Script accepts two parameters
@@ -10,8 +10,7 @@ The Script accepts two parameters
 2. The service you would like to access (i.e. EC2 / S3)
 
 ## Usage
-Assuming that I would like to access the S3 console and I have a Vault profile
-named `work`
+Assuming that I would like to access the S3 console and I have an aws-vault profile named `work`
 
 `aws-vault-url work s3`
 
