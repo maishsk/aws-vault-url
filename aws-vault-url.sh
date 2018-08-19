@@ -13,5 +13,6 @@ if [ $# -ne 2 ]; then
     echo 1>&2 "For example: aws-vault-url work ec2"
     exit 1
 fi
+
 URL=`aws-vault login $PROFILE`
 echo $URL | sed "s/https%3.*com%2F.[^&]*/https%3A%2F%2Fconsole.aws.amazon.com%2F$SVC/g"
