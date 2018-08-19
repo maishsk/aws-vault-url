@@ -15,6 +15,10 @@ named `work`
 
 `aws-vault-url work s3`
 
+You will be presented with a URL
+
+`https://signin.aws.amazon.com/federation?Action=login&Issuer=aws-vault&Destination=https%3A%2F%2Fconsole.aws.amazon.com%2Fls&SigninToken=dlLnKGEZXbDYxlDAt6qbG9Nz6PpVnRBG1poLYI6ngRPYIThZ03He_2fuR0K8I5LTdIiAo6G0Ze0vqXdN2gcteUECsv_Qh3ZZKPoqrVrNAoMebxuyPCjL2US80Tv1xo6ya96uTJ8xOV-HtWAo3H_5I4SSN4CWXb0sSR`
+
 Copy and paste the URL into the browser of your choice
 
 ## TODO
