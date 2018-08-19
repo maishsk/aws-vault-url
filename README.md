@@ -1,5 +1,7 @@
 # aws-vault-url
-Tool to get the correct URL for any AWS service console
+A tool to produce a URL for any AWS service.
+
+Generate the URL for your service and copy+paste into your browser
 
 The tool uses [aws-vault](https://github.com/99designs/aws-vault)
 
