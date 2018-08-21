@@ -1,3 +1,4 @@
+# Supported services
 a4b
 acm
 amazon-mq
@@ -21,7 +22,7 @@ codedeploy
 codepipeline
 codestar
 cognito
-comprehendv2
+comprehend
 config
 connect
 datapipeline
@@ -61,7 +62,6 @@ lambda
 lex
 ls
 machinelearning
-macie
 managedservices
 mediaconvert
 medialive
@@ -75,7 +75,6 @@ neptune
 opsworks
 pinpoint
 polly
-quicksight
 rds
 redshift
 rekognition
@@ -103,3 +102,8 @@ workmail
 workspaces
 xray
 zocalo
+
+# Not Supported Services (the format of the URL is different)
+chime - https://chime.aws.amazon.com
+macie - https://us-east-1.redirection.macie.aws.amazon.com
+quicksight - https://quicksight.aws.amazon.com
