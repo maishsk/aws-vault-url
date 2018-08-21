@@ -28,4 +28,4 @@ Rejoice.
 Please do! This is a new project and can obviouly be improved
 
 ## TODO
-- prepare a [list](supported_endpoints) of services that are valid for the URL
+- prepare a [list](supported_endpoints.MD) of services that are valid for the URL
